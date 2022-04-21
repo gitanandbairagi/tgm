@@ -238,14 +238,6 @@
     /* background-color: grey; */
 }
 
-.big {
-    font-size: 3.5rem;
-}
-
-.small {
-    font-size: 1rem;
-}
-
 .form {
     width: 40%;
 }
@@ -275,15 +267,6 @@
     margin: 10px 0px;
 }
 
-.form form div input {
-    cursor: pointer;
-    text-align: center;
-}
-
-.form form div input::placeholder {
-    font-size: 1rem;
-}
-
 .form form div {
     display: flex;
     justify-content: space-evenly;
@@ -292,6 +275,16 @@
 .form form div input {
     padding: 10px;
     width: 20%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.form form div input::placeholder {
+    font-size: 1rem;
+}
+
+.form form div input:focus {
+    border: 2px solid var(--secondary);
 }
 
 .form form button {
@@ -305,6 +298,179 @@
 .form form button:hover {
     background-color: transparent;
     border: 1px solid var(--secondary);
+}
+
+/* section-3 */
+.section-3 {
+    /* border: 1px solid var(--secondary); */
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 50px solid var(--main);
+}
+
+.section-3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 150px;
+    /* border: 1px solid black; */
+}
+
+.section-3 div p {
+    text-align: center;
+}
+
+/* Section-4 */
+.section-4 {
+    height: 750px;
+    width: 100%;
+    /* background-color: grey; */
+}
+
+.youtubecont {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    height: 24vh;
+    /* background-color: burlywood; */
+}
+
+.recentvids {
+    display: flex;
+    width: 45%;
+    /* border: 1px solid red; */
+}
+
+.visitchannel {
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+    height: 10vh;   
+    /* border: 1px solid saddlebrown; */
+}
+
+.visitchannel button {
+    margin: 5px;
+    font-size: 1.2rem;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+    cursor: pointer;
+}
+
+.visitchannel button:hover {
+    background-color: transparent;
+}
+
+/* section-4: vid-container */
+.vid-parent {
+    margin-top: -19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid-container {
+    display: flex;
+    height: 48vh;
+    width: 95%;
+    /* background-color: grey; */
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    margin-top: 0px;
+    height: inherit;
+    /* border: 1px solid red; */
+}
+
+.thumbnail {
+    width: 95%;
+    height: 91%;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+
+.thumbnail iframe {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.thumbnail-tittle {
+    width: 95%;
+    /* background-color: #ff3535; */
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+    height: 30vh;
+    width: 100%;
+    color: white;
+    background-color: var(--main);
+}
+
+.footer-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    height: 25vh;
+    /* border: 1px solid red; */
+}
+
+.enquiry {
+    display: flex;
+    width: 95%;
+    /* border: 1px solid white; */
+}
+
+.enquiry p {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.enquiry p:hover {
+    color: grey;
+}
+
+.dull p {
+    color: grey;
+}
+
+.footer-container-2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+    height: 15vh;
+    /* border: 1px solid red; */
+}
+
+.footer-container-2 img {
+    width: 25px;
+    height: 25px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.footer-container-2 img:hover {
+    filter: invert(0.4);
 }
 
 /* Utility Class */
@@ -331,3 +497,16 @@
     2px 2px 0px var(--main),
     -2px -2px 0px var(--main);
 }
+
+.big {
+    font-size: 3.5rem;
+}
+
+.small {
+    font-size: 1rem;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+}
+
