@@ -4,7 +4,7 @@
     .logo {
         width: 20%;
     }
-    
+
     .logo img {
         width: 40%;
     }
@@ -12,12 +12,12 @@
     .cart {
         width: 20%;
     }
-    
+
     .cart img {
         width: 25px;
         height: 25px;
     }
-    
+
 
     /* landing section */
     .bgground {
@@ -27,16 +27,75 @@
     }
 
     .firsthalf {
-        width: 75%;
+        width: 95%;
     }
 
     .firsthalf img {
         width: 350px;
     }
 
+    .btn-primary {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
     /* items showcase */
-    .showcase-1 {
+    .container {
+        width: 220px;
+        height: 350px;
+    }
+
+    /* section-2 */
+    .section-2 {
+        margin-top: 1150px;
+        height: 700px;
         flex-direction: column;
-        height: 100%;
+        /* border: 1px solid red */
+    }
+
+    .msg {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 90%;
+        height: 150px;
+        /* border: 1px solid red; */
+    }
+
+    .form {
+        width: 86%;
+    }
+
+    .form form input::placeholder, textarea::placeholder {
+        font-size: 0.7rem;
+    }
+
+    .form form div {
+        flex-wrap: wrap;
+    }
+
+    .form form div input {
+        width: 125px;
+    }
+
+    /* UTILITY CLASS */
+    .text-big {
+        font-size: 2.5rem;
+    }
+
+    .text-medium {
+        font-size: 1.6rem;
+    }
+
+    .text-small {
+        font-size: 0.9rem;
+    }
+
+    .big {
+        font-size: 2rem;
+    }
+
+    .small {
+        font-size: 0.9rem;
     }
 }
