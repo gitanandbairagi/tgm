@@ -35,31 +35,30 @@
     }
 
     .btn-primary {
-        padding: 10px 20px;
+        padding: 15px 30px;
         font-size: 1rem;
     }
 
     /* items showcase */
     .container {
-        width: 220px;
-        height: 350px;
+        width: 170px;
+        height: 300px;
     }
 
     /* section-2 */
     .section-2 {
-        margin-top: 1150px;
-        height: 700px;
+        margin-top: -100px;
+        height: 610px;
+        justify-content: flex-start;
         flex-direction: column;
-        /* border: 1px solid red */
     }
 
     .msg {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         width: 90%;
-        height: 150px;
-        /* border: 1px solid red; */
+        height: 125px;
     }
 
     .form {
@@ -76,6 +75,23 @@
 
     .form form div input {
         width: 125px;
+    }
+
+    /* section-4 */
+    .youtubecont {
+        flex-direction: column;
+        height: 35vh;
+    }
+
+    .recentvids, .visitchannel {
+        justify-content: center;
+        width: 90%;
+    }
+
+    .visitchannel button {
+        margin: 0px;
+        padding: 10px 25px;
+        font-size: 1.1rem;
     }
 
     /* UTILITY CLASS */
