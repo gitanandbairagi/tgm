@@ -96,9 +96,13 @@
 
     /* footer */
     .footer {
-        margin-top: 1700px;
+        margin-top: 1800px;
         flex-direction: column-reverse;
-        height: 70vh;
+        height: 400px;
+    }
+
+    .footer-container-1 {
+        width: 90%;
     }
 
     .footer-container-2 {
