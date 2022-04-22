@@ -1,0 +1,19 @@
+@media only screen and  (min-width: 950px) and (max-width: 1230px) {
+    
+    .firsthalf {
+        width: 45%;
+    }
+
+    .firsthalf img {
+        width: 490px;
+    }
+
+    .secondhalf {
+        width: 55%;
+    }
+
+    /* UTILITY CLASS */
+    .text-big {
+        font-size: 4rem;
+    }
+}
